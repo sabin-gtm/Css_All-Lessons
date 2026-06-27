@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 1040px;
+    height: 520px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.slider {
+    width: 2600px;
+    height: 520px;
+    float: left;
+    position: relative;
+    animation: slide 40s infinite;
+}
+
+.slider:hover {
+    animation-play-state: paused;
+}
+
+@keyframes slide {
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    50% {
+        top: 0;
+        left: -1560px;
+    }
+
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+
+img {
+    float: left;
+    margin: 10px;
+    filter: grayscale(100%);
+}
+
+img:hover {
+    filter: none;
+}

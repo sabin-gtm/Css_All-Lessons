@@ -1,0 +1,40 @@
+div{
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: brown;
+    border-style: solid;
+    background-image: url(a.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+
+    animation-name: img;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes img{
+    0%{
+        background-image:url(a.jpg);
+    }
+    25%{
+         background-image:url(b.jpg);
+    }
+    50%{
+         background-image:url(c.jpg);
+    }
+    100%{
+         background-image:url(d.jpg);
+    }
+}

@@ -1,0 +1,39 @@
+body{
+    animation-name: stp;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+h1{
+    /* animation-name: stp;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; */
+
+    -webkit-animation: stp 5s infinite;
+    -moz-animation: stp 5s infinite;
+    -o-animation: stp 5s infinite;
+    animation: stp 5s infinite;
+}
+
+@keyframes stp{
+    0%{
+        background-color: red;
+        color: black;
+    }
+    25%{
+        background-color: blue;
+        color: white;
+    }
+    50%{
+        background-color: yellow;
+        color: black;
+    }
+    75%{
+        background-color: pink;
+        color: white;
+    }
+    100%{
+        background-color: aqua;
+        color: black;
+    }
+}

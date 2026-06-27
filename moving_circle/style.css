@@ -1,0 +1,27 @@
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation: move 3s infinite;
+    position: relative;
+    transition: 1s;
+
+}
+
+@keyframes move {
+    0% {
+        background-image: linear-gradient(to right, blue, yellow, black, red);
+        left: 0px;
+
+    }
+
+    50% {
+        background-image: linear-gradient(to right, yellow, black, red, blue);
+        left: 200px;
+    }
+
+    100% {
+        background-image: linear-gradient(to right black, red, blue, yellow);
+        left: 400px;
+    }
+}

@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+
+body{
+    background-color: black;
+    color: white;
+}
+.page{
+    width: 720px;
+    height: 480px;
+    border: 20px groove black;
+    margin: 50px auto;
+    background: url(bg.jpg);
+    background-size: cover;
+
+}
+
+.page:hover{
+    -moz-animation:bg 20s infinite;
+    -o-animation:bg 20s infinite;
+    -webkit-animation:bg 20s infinite;
+    animation:bg 20s infinite;
+}
+
+@keyframes bg{
+    0%{
+        background-position: top 5000px left;
+    }
+}

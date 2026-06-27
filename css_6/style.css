@@ -1,0 +1,125 @@
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    /* animation-name: text;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+    
+    -webkit-animation: text 3s infinite;
+    -moz-animation: text 3s infinite;
+    -o-animation: text 3s infinite;
+    animation: text 3s infinite;
+}
+
+@-o-keyframes text{
+    0%{
+        color: red;
+        font-size:20px;
+    }
+    20%{
+        color: brown;
+        font-size:30px;
+    }
+    40%{
+        color: blue;
+        font-size:40px;
+    }
+    60%{
+        color: aqua;
+        font-size:40px;
+    }
+    80%{
+        color: blueviolet;
+        font-size:30px;
+    }
+    100%{
+        color: crimson;
+        font-size:20px;
+    }
+
+}
+
+@-moz-keyframes text{
+    0%{
+        color: red;
+        font-size:20px;
+    }
+    20%{
+        color: brown;
+        font-size:30px;
+    }
+    40%{
+        color: blue;
+        font-size:40px;
+    }
+    60%{
+        color: aqua;
+        font-size:40px;
+    }
+    80%{
+        color: blueviolet;
+        font-size:30px;
+    }
+    100%{
+        color: crimson;
+        font-size:20px;
+    }
+
+}
+
+
+@-webkit-keyframes text{
+    0%{
+        color: red;
+        font-size:20px;
+    }
+    20%{
+        color: brown;
+        font-size:30px;
+    }
+    40%{
+        color: blue;
+        font-size:40px;
+    }
+    60%{
+        color: aqua;
+        font-size:40px;
+    }
+    80%{
+        color: blueviolet;
+        font-size:30px;
+    }
+    100%{
+        color: crimson;
+        font-size:20px;
+    }
+
+}
+
+@keyframes text{
+    0%{
+        color: red;
+        font-size:20px;
+    }
+    20%{
+        color: brown;
+        font-size:30px;
+    }
+    40%{
+        color: blue;
+        font-size:40px;
+    }
+    60%{
+        color: aqua;
+        font-size:40px;
+    }
+    80%{
+        color: blueviolet;
+        font-size:30px;
+    }
+    100%{
+        color: crimson;
+        font-size:20px;
+    }
+
+}
